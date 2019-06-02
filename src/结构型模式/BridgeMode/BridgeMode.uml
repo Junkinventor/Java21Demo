@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.007407407407413" y="160.0">结构型模式.BridgeMode.PcModel</node>
+    <node x="56.88240740740741" y="0.0">结构型模式.BridgeMode.Brand</node>
+    <node x="0.0" y="80.0">结构型模式.BridgeMode.Model</node>
+    <node x="108.0" y="80.0">结构型模式.BridgeMode.BrandImpl</node>
+    <node x="82.16481481481483" y="240.0">结构型模式.BridgeMode.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型模式.BridgeMode.Model" target="结构型模式.BridgeMode.Brand">
+      <point x="21.75" y="-15.0" />
+      <point x="65.25" y="60.0" />
+      <point x="81.48240740740741" y="60.0" />
+      <point x="-16.400000000000006" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.PcModel" target="结构型模式.BridgeMode.Model">
+      <point x="-33.33333333333334" y="-15.0" />
+      <point x="26.67407407407407" y="135.0" />
+      <point x="21.75" y="135.0" />
+      <point x="-21.75" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.Client" target="结构型模式.BridgeMode.Brand">
+      <point x="30.75" y="-15.0" />
+      <point x="153.91481481481483" y="220.0" />
+      <point x="226.5" y="220.0" />
+      <point x="226.5" y="50.0" />
+      <point x="130.6824074074074" y="50.0" />
+      <point x="32.79999999999998" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.Client" target="结构型模式.BridgeMode.BrandImpl">
+      <point x="10.25" y="-15.0" />
+      <point x="133.41481481481483" y="210.0" />
+      <point x="162.0" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.BrandImpl" target="结构型模式.BridgeMode.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="162.0" y="60.0" />
+      <point x="114.28240740740742" y="60.0" />
+      <point x="16.400000000000006" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.Client" target="结构型模式.BridgeMode.PcModel">
+      <point x="-30.75" y="-15.0" />
+      <point x="92.41481481481483" y="220.0" />
+      <point x="35.00740740740741" y="220.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.BridgeMode.PcModel" target="结构型模式.BridgeMode.Brand">
+      <point x="33.33333333333334" y="-15.0" />
+      <point x="93.34074074074076" y="135.0" />
+      <point x="97.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="301.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>结构型模式.ProxyMode.DynamicProxyDemo</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">结构型模式.ProxyMode.DynamicProxyDemo.StarHandler</node>
+    <node x="138.0" y="80.0">结构型模式.ProxyMode.DynamicProxyDemo.RealStar</node>
+    <node x="148.84166666666667" y="160.0">结构型模式.ProxyMode.DynamicProxyDemo.Test</node>
+    <node x="107.89166666666667" y="0.0">结构型模式.ProxyMode.DynamicProxyDemo.Star</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型模式.ProxyMode.DynamicProxyDemo.Test" target="结构型模式.ProxyMode.DynamicProxyDemo.RealStar">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.DynamicProxyDemo.RealStar" target="结构型模式.ProxyMode.DynamicProxyDemo.Star">
+      <point x="0.0" y="-15.0" />
+      <point x="186.0" y="60.0" />
+      <point x="152.26666666666665" y="60.0" />
+      <point x="8.875" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.DynamicProxyDemo.Test" target="结构型模式.ProxyMode.DynamicProxyDemo.StarHandler">
+      <point x="-24.333333333333314" y="-15.0" />
+      <point x="161.00833333333335" y="135.0" />
+      <point x="59.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.DynamicProxyDemo.Test" target="结构型模式.ProxyMode.DynamicProxyDemo.Star">
+      <point x="24.333333333333343" y="-15.0" />
+      <point x="209.675" y="135.0" />
+      <point x="244.5" y="135.0" />
+      <point x="244.5" y="50.0" />
+      <point x="170.01666666666665" y="50.0" />
+      <point x="26.625" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.DynamicProxyDemo.StarHandler" target="结构型模式.ProxyMode.DynamicProxyDemo.Star">
+      <point x="29.5" y="-15.0" />
+      <point x="88.5" y="60.0" />
+      <point x="134.51666666666665" y="60.0" />
+      <point x="-8.875" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

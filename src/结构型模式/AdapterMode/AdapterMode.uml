@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="155.0">结构型模式.AdapterMode.Client</node>
+    <node x="107.0" y="0.0">结构型模式.AdapterMode.Adapatee</node>
+    <node x="0.0" y="0.0">结构型模式.AdapterMode.Target</node>
+    <node x="53.5" y="80.0">结构型模式.AdapterMode.Adapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型模式.AdapterMode.Adapter" target="结构型模式.AdapterMode.Target">
+      <point x="-24.0" y="-15.0" />
+      <point x="77.5" y="55.0" />
+      <point x="43.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.AdapterMode.Adapter" target="结构型模式.AdapterMode.Adapatee">
+      <point x="24.0" y="-15.0" />
+      <point x="125.5" y="55.0" />
+      <point x="159.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="93.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

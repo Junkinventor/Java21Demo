@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="180.0" y="103.5">结构型模式.ProxyMode.StaticProxyMode.RealStar</node>
+    <node x="119.60416666666669" y="207.0">结构型模式.ProxyMode.StaticProxyMode.Test</node>
+    <node x="78.88541666666669" y="0.0">结构型模式.ProxyMode.StaticProxyMode.Star</node>
+    <node x="0.0" y="80.0">结构型模式.ProxyMode.StaticProxyMode.ProxyStar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型模式.ProxyMode.StaticProxyMode.ProxyStar" target="结构型模式.ProxyMode.StaticProxyMode.Star">
+      <point x="-53.33333333333334" y="-38.5" />
+      <point x="26.666666666666657" y="50.0" />
+      <point x="87.76041666666669" y="50.0" />
+      <point x="-26.625" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.StaticProxyMode.Test" target="结构型模式.ProxyMode.StaticProxyMode.RealStar">
+      <point x="27.375" y="-15.0" />
+      <point x="183.47916666666669" y="187.0" />
+      <point x="252.0" y="187.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.StaticProxyMode.Test" target="结构型模式.ProxyMode.StaticProxyMode.ProxyStar">
+      <point x="-27.375" y="-15.0" />
+      <point x="128.72916666666669" y="187.0" />
+      <point x="40.0" y="187.0" />
+      <point x="-40.0" y="38.5" />
+    </edge>
+    <edge source="结构型模式.ProxyMode.StaticProxyMode.RealStar" target="结构型模式.ProxyMode.StaticProxyMode.Star">
+      <point x="0.0" y="-15.0" />
+      <point x="228.0" y="60.0" />
+      <point x="141.01041666666669" y="60.0" />
+      <point x="26.625" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="170.5" y="245.0" />
+  <SelectedNodes>
+    <node>结构型模式.ProxyMode.StaticProxyMode.ProxyStar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

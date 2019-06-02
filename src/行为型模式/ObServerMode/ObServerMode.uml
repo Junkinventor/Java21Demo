@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.500000000000014" y="160.0">行为型模式.ObServerMode.ServerSubjet</node>
+    <node x="10.471969696969708" y="0.0">行为型模式.ObServerMode.Observer</node>
+    <node x="73.16136363636366" y="240.0">行为型模式.ObServerMode.Test</node>
+    <node x="195.0" y="80.0">行为型模式.ObServerMode.userObserver</node>
+    <node x="83.00000000000001" y="80.0">行为型模式.ObServerMode.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型模式.ObServerMode.userObserver" target="行为型模式.ObServerMode.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="258.5" y="50.0" />
+      <point x="102.27196969696972" y="50.0" />
+      <point x="40.80000000000001" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.Test" target="行为型模式.ObServerMode.userObserver">
+      <point x="27.375" y="-15.0" />
+      <point x="137.03636363636366" y="220.0" />
+      <point x="258.5" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.Test" target="行为型模式.ObServerMode.ServerSubjet">
+      <point x="-9.125" y="-15.0" />
+      <point x="100.53636363636366" y="210.0" />
+      <point x="72.50000000000001" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.Test" target="行为型模式.ObServerMode.Observer">
+      <point x="-27.375" y="-15.0" />
+      <point x="82.28636363636366" y="220.0" />
+      <point x="0.0" y="220.0" />
+      <point x="0.0" y="60.0" />
+      <point x="20.67196969696971" y="60.0" />
+      <point x="-40.8" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.ServerSubjet" target="行为型模式.ObServerMode.Observer">
+      <point x="-41.33333333333334" y="-15.0" />
+      <point x="31.16666666666667" y="135.0" />
+      <point x="47.883333333333354" y="135.0" />
+      <point x="47.883333333333354" y="60.0" />
+      <point x="41.0719696969697" y="60.0" />
+      <point x="-20.400000000000006" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.ServerSubjet" target="行为型模式.ObServerMode.Subject">
+      <point x="41.33333333333334" y="-15.0" />
+      <point x="113.83333333333336" y="135.0" />
+      <point x="106.00000000000001" y="135.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.Subject" target="行为型模式.ObServerMode.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="129.0" y="60.0" />
+      <point x="81.87196969696971" y="60.0" />
+      <point x="20.400000000000006" y="15.0" />
+    </edge>
+    <edge source="行为型模式.ObServerMode.Test" target="行为型模式.ObServerMode.Subject">
+      <point x="9.125" y="-15.0" />
+      <point x="118.78636363636366" y="210.0" />
+      <point x="152.0" y="210.0" />
+      <point x="23.000000000000004" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="177.0" y="103.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
